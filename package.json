@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://2300030055.github.io/reactcicd",
+  "home": "https://2300030055.github.io/reactcicd",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
